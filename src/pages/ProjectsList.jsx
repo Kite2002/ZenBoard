@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectTable from "../components/Projects/ProjectTable";
-import CreateProject from "../components/Projects/CreateProject";
+import ProjectTable from "../components/ProjectsList/ProjectTable";
+import CreateProject from "../components/ProjectsList/CreateProject";
 
 const projects = [
   {
@@ -23,7 +23,7 @@ const projects = [
   },
 ];
 
-function Projects() {
+function ProjectsList() {
   return (
     <div className="p-6 px-8 ">
       <div className="flex justify-between items-center">
@@ -35,4 +35,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsList;

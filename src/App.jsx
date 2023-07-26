@@ -1,12 +1,13 @@
-import Projects from "./pages/Projects";
+import ProjectsList from "./pages/ProjectsList";
 import Nav from "./components/Nav";
+import Project from "./pages/Project";
 
 function App() {
 
   return (
-    <div className=" text-base bg-background min-h-screen">
+    <div className=" text-base bg-background h-screen overflow-hidden">
       <Nav/>
-      <Projects />
+      <Project />
     </div>
   );
 }
